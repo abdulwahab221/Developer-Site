@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Responsive-Area.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Responsive Navbar</title>
+  </head>
+  <body>
+            <!-- Pre-Loader -->
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+       <!-- Mouse Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor2" id="cursor2"></div>
+    <div class="cursor3" id="cursor3"></div>
+       <!-- Progress Bar -->
+         <div class="scroll-up-btn" id="hover-target">
+      <div id="progress" class="jello-vertical-alternate">
+      <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
+      </div>
+    </div>
+    <!-- Header -->
+    <header class="header">
+      <a href="#" class="logo" id="hover-target">
+           <div class="name-logo">AW</div>
+        </a>
+      <nav class="navbar-menu" id="navbar-menu">
+        <div class="nav-links-container" id="hover-target">
+          <a href="#home" class="navbar-link active">Home</a>
+          <a href="#tools" class="navbar-link">Tools</a>
+          <a href="#libraries" class="navbar-link">Libraries</a>
+          <a href="#design" class="navbar-link">Design</a>
+          <a href="#about_me" class="navbar-link">About Me</a>
+        </div>
+        <div id="marker"></div>
+      </nav>
+      <div class="only-for-mouse-hover" id="hover-target">
+      <button class="mobile-menu-btn" id="mobile-menu-btn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+      <div class="hero-section">
+        <div class="left-bg">
+          <img
+            src="/Assests/hero-section-left-bg.png"
+            alt="hero-section-left-bg"
+          />
+        </div>
+        <div class="text-area">
+          <h1>Welcome To Site Of</h1>
+          <div class="text-animate">
+            <h2><span id="element"></span></h2>
+          </div>
+          <p>
+            This is Website is for Web Developer There are lots of Web
+            Development Tools, Libraries & Much More You May Find Every Type of
+            Web Techonology in this Website
+          </p>
+          <!-- Home Btn -->
+          <div class="explore-btn" id="hover-target">
+            <a href="#libraries">
+              <button>
+                Let's Explore
+                <div class="star-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xml:space="preserve"
+                    version="1.1"
+                    style="
+                      shape-rendering: geometricPrecision;
+                      text-rendering: geometricPrecision;
+                      image-rendering: optimizeQuality;
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                    "
+                    viewBox="0 0 784.11 815.53"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        class="fil0"
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="star-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xml:space="preserve"
+                    version="1.1"
+                    style="
+                      shape-rendering: geometricPrecision;
+                      text-rendering: geometricPrecision;
+                      image-rendering: optimizeQuality;
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                    "
+                    viewBox="0 0 784.11 815.53"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        class="fil0"
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="star-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xml:space="preserve"
+                    version="1.1"
+                    style="
+                      shape-rendering: geometricPrecision;
+                      text-rendering: geometricPrecision;
+                      image-rendering: optimizeQuality;
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                    "
+                    viewBox="0 0 784.11 815.53"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        class="fil0"
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="star-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xml:space="preserve"
+                    version="1.1"
+                    style="
+                      shape-rendering: geometricPrecision;
+                      text-rendering: geometricPrecision;
+                      image-rendering: optimizeQuality;
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                    "
+                    viewBox="0 0 784.11 815.53"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        class="fil0"
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="star-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xml:space="preserve"
+                    version="1.1"
+                    style="
+                      shape-rendering: geometricPrecision;
+                      text-rendering: geometricPrecision;
+                      image-rendering: optimizeQuality;
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                    "
+                    viewBox="0 0 784.11 815.53"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        class="fil0"
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="star-6">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xml:space="preserve"
+                    version="1.1"
+                    style="
+                      shape-rendering: geometricPrecision;
+                      text-rendering: geometricPrecision;
+                      image-rendering: optimizeQuality;
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                    "
+                    viewBox="0 0 784.11 815.53"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        class="fil0"
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="tools-section">
+      <div class="tools">
+        <div class="text-animate">
+          <h3>Top Web Tools</h3>
+        </div>
+        <div class="btn-container"> 
+          <button class="animated-button">
+            <a target="_blank" href="https://gradienty.codes/">
+              <svg
+                viewBox="0 0 24 24"
+                class="arr-2"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+              <span class="text">Tailwind Gradiant Genrator</span>
+              <span class="circle"></span>
+              <svg
+                viewBox="0 0 24 24"
+                class="arr-1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </a>
+          </button>
+          <button class="animated-button">
+            <a
+              target="_blank"
+              href="https://www.cssportal.com/css-functions/counter.php"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                class="arr-2"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+              <span class="text">Css Genrator</span>
+              <span class="circle"></span>
+              <svg
+                viewBox="0 0 24 24"
+                class="arr-1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path></svg>
+            </a>
+          </button>
+        
+         
+        </div>
+      </div>
+    </section>
+
+    <!-- Liberies Section -->
+    <section id="libraries" class="liberies-section">
+      <div class="text-animate">
+        <h4><span id="element">Top Libraries</span></h4>
+      </div>
+      <div class="libraries-btn">
+
+        <a href="https://tailwindcss.com/" class="read-btn" id="hover-target" target="_blank"><span>Tailwind Css</span></a>
+        <a href="https://getbootstrap.com/" class="read-btn" id="hover-target" target="_blank"><span>Bootstrap 5</span></a>
+        <a href="https://fontawesome.com/" class="read-btn" id="hover-target" target="_blank"><span>Font Awsome</span></a>
+        <a href="https://gsap.com/" class="read-btn" id="hover-target" target="_blank"><span>Gsap</span></a>
+        <a href="#https://threejs.org/" class="read-btn" id="hover-target" target="_blank"><span>Three Js</span></a>
+        <a href="https://motion.dev/" class="read-btn" id="hover-target" target="_blank"><span>Motion One</span></a>
+        <a href="https://coolors.co/" class="read-btn" id="hover-target" target="_blank"><span>Colors Paletts</span></a>
+        <a href="https://uiverse.io/" class="read-btn" id="hover-target" target="_blank"><span>UI Verse</span></a>
+        <a href="https://daisyui.com/" class="read-btn" id="hover-target" target="_blank"><span>Daisy Ui</span></a>
+        <a href="https://www.reactbits.dev/" class="read-btn" id="hover-target" target="_blank"><span>React Bits</span></a>
+        </div>
+    </section>
+    <section id="design" class="design-section">
+      <div class="text-animate">
+        <h4><span id="element">Top Design</span></h4>
+      </div>
+      <div class="design-btn">
+        <a href="https://cornrevolution.resn.global/" target="_blank" ><img src="/Assests/design-section/Screenshot 2025-07-01 113901.png" alt=""></a>
+        <a href="https://www.igloo.inc/" target="_blank" ><img src="/Assests/design-section/Screenshot 2025-07-01 113813.png" alt=""></a>
+        <a href="https://persepolis.getty.edu/" target="_blank" ><img src="/Assests/design-section/Screenshot 2025-07-01 113845.png" alt=""></a>
+        <a href="https://kprverse.com/" target="_blank" ><img src="/Assests/design-section/Screenshot 2025-07-01 113831.png" alt=""></a>
+      </div>
+    </section>
+    <section id="about_me" class="about_me-section">
+      <div class="text-animate">
+        <h4><span id="element">About Me</span></h4>
+      </div>
+      <div class="about-img">
+        <img src="/Assests/About Me.jpg" alt="">
+      </div>
+        <div class="card-container">
+            <div class="floating-card">
+                <div class="card-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h2 class="card-title">Skills</h2>
+                <p class="card-content">
+                    JavaScript, React, Next.Js<br>
+                    Node.Js, MongoDB PostgreSQL <br>
+                    Framer Motion, Three.Js, Gsap<br>
+                    Authentication (NextAuth, JWT)
+                    
+                </p>
+            </div>
+            
+            <div class="floating-card">
+                <div class="card-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <h2 class="card-title">Experience</h2>
+                <p class="card-content">
+                    1+ years in web development<br>
+                    Full Stack Developer<br>
+                    UI/UX Designer<br>
+                    Freelance Developer
+                </p>
+            </div>
+            
+            <div class="floating-card">
+                <div class="card-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h2 class="card-title">Education</h2>
+                <p class="card-content">
+                    Intermediate CS<br>
+                    Becholar Computer Science<br>
+                    Mern Stack Develper Aptech<br>
+                    UX Certification
+                </p>
+            </div>
+        </div>
+        
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+        </div>
+        
+
+    </div>
+    </section>
+     
+ 
+
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+      <script>
+        // PreLoader
+      document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(function () {
+          document.querySelector("body").classList.add("loaded");
+        }, 10);
+      });
+    </script>
+  </body>
+</html>
