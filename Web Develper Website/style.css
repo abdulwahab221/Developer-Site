@@ -947,3 +947,7 @@ box-shadow: 3px 3px 5px 3px var(--main-color);
             box-shadow: 0 8px 20px rgba(100, 200, 255, 0.3);
             color: #64c8ff;
         }
+        footer {
+          background: #000;
+          height: 3vh;
+        }
